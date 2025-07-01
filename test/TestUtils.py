@@ -4,7 +4,7 @@ import json
 import requests
 
 class TestUtils:
-    GUID = "dc66f3c1-630f-40ab-8314-f7bb9ffcb71f""
+    GUID = "dc66f3c1-630f-40ab-8314-f7bb9ffcb71f"
     URL = "https://compiler.techademy.com/v1/mfa-results/push"
 
     @classmethod
