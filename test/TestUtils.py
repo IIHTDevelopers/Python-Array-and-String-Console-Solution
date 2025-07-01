@@ -4,8 +4,8 @@ import json
 import requests
 
 class TestUtils:
-    GUID = "dc66f3c1-630f-40ab-8314-f7bb9ffcb71f"
-    URL = "https://yaksha-prod-sbfn.azurewebsites.net/api/YakshaMFAEnqueue?code=jSTWTxtQ8kZgQ5FC0oLgoSgZG7UoU9Asnmxgp6hLLvYId/GW9ccoLw=="
+    GUID = "dc66f3c1-630f-40ab-8314-f7bb9ffcb71f""
+    URL = "https://compiler.techademy.com/v1/mfa-results/push"
 
     @classmethod
     def yakshaAssert(self, test_name, result, test_type):
